@@ -1,0 +1,95 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* whole webpage */
+.container {
+  margin-left: 140px;
+  margin-top: 65px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+
+/* selecting logo */
+.navbar-container>div:nth-child(1)>img {
+  height: auto;
+  width: 120px;
+}
+
+/* selecting logo and list container */
+.navbar-container:first-child,
+.grow-list {
+  display: flex;
+  flex: 1;
+}
+
+/* selecting list items */
+.list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-size: 22px;
+}
+
+.grow-list {
+  margin-left: 50px;
+}
+
+.nav-button {
+  background-color: #4a4ca8;
+  color: #fff;
+  padding: 15px 30px;
+  border-style: none;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-right: 120px;
+  font-size: 18px;
+}
+
+.banner-container {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.banner-container>div:nth-child(1) {
+  margin-top: 70px;
+}
+
+.banner-container>div:nth-child(2)>img {
+  width: 950px;
+  height: auto;
+}
+
+.heading-text {
+  font-size: 92px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  color: #10114e;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 23px;
+  color: #b0b0b0;
+  margin-bottom: 50px;
+}
+
+span {
+  color: #4a4ca8;
+}
+
+ul li:not(:first-child) {
+  color: #b0b0b0;
+}

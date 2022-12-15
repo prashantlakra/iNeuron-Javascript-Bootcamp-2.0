@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f0f4f5;
+  margin: auto;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  height: 15vh;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 38px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+nav ul li:first-child {
+  color: #20bc7e;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+  position: relative;
+}
+
+main section {
+  width: 50%;
+}
+
+.left-section {
+  margin-left: 5%;
+  position: relative;
+}
+
+.top-angle {
+  width: 25px;
+}
+
+.left-section h1 {
+  font-size: 88px;
+}
+
+.left-section p {
+  color: #20bc7e;
+  font-size: 28px;
+  margin: 28px 0;
+}
+
+.bottom-angle {
+  position: absolute;
+  width: 25px;
+  right: 0;
+}
+
+.stethoscope {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  width: 812px;
+  height: auto;
+}
+
+.mouse {
+  position: absolute;
+  right: -50px;
+  bottom: 0;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 20px 40px;
+  font-size: 28px;
+  border-radius: 50px;
+  background-color: #20bc7e;
+  color: white;
+  border-style: none;
+  font-weight: 600;
+}
+
+.green-box {
+  position: absolute;
+  right: 0;
+  top: 141px;
+  width: 630px;
+  height: auto;
+}
+
+.yellow-box {
+  position: absolute;
+  right: 0;
+  top: 194px;
+  width: 543px;
+  height: auto;
+}
+
+.doctor {
+  position: absolute;
+  top: -20px;
+  z-index: 1;
+  width: 605px;
+  height: auto;
+  right: 20px;
+}
