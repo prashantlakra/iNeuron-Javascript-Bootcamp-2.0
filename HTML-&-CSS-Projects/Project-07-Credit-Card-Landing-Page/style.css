@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+/*  Navbar Section */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 70px;
+    background-color: #151515;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.navbar-mid {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar-end {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.contact-us-section {
+    display: flex;
+    position: relative;
+    margin-left: 50px;
+}
+
+#contact-us-icon {
+    position: absolute;
+    right: 90px;
+    top: 3px;
+}
+
+/*  Hero Section */
+
+.hero-section {
+    display: flex;
+    background-color: #151515;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+.hero-text {
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+#hero-text-heading {
+    font-size: 78px;
+}
+
+
+#hero-text-desc {
+    font-size: 30px;
+    padding-top: 30px;
+    color: #8a8a8a;
+}
+
+.get-started-section {
+    position: relative;
+    padding: 50px 0;
+}
+
+#get-started-icon {
+    position: absolute;
+    top: 53px;
+}
+
+#get-started-text {
+    position: absolute;
+    font-size: 20px;
+    left: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#get-started-arrow-icon {
+    position: absolute;
+    top: 56px;
+    left: 200px;
+}
+
+.hero-text-stats {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    max-width: 700px;
+}
+
+.hero-text-stats>p {
+    font-size: 24px;
+}
+
+.hero-text-stats>p>span {
+    font-size: 52px;
+}
+
+.hero-img-1>img {
+    position: absolute;
+    top: 50px;
+    right: 185px;
+}
+
+/*  Logo Section */
+
+.logo-section {
+    display: flex;
+    background-color: #292929;
+    padding: 100px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*  Services Section  */
+
+.services-section {
+    padding: 100px 100px;
+    background-color: #151515;
+}
+
+.services-section-text {
+    display: flex;
+    align-items: center;
+}
+
+#services-section-text-heading {
+    font-size: 92px;
+    color: #ffffff;
+}
+
+#services-section-text-desc {
+    font-size: 30px;
+    color: #8a8a8a;
+}
+
+.services-section-images {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+
+#block-1,
+#block-2,
+#block-3 {
+    color: #ffffff;
+    font-size: 32px;
+    width: 370px;
+    height: auto;
+    padding: 30px 30px;
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+}
+
+#block-2 {
+    background-color: #474442;
+}
