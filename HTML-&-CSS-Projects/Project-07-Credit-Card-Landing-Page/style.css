@@ -62,6 +62,11 @@ body {
     font-size: 78px;
 }
 
+#hero-text-heading-blue-text {
+    color: #f637ec;
+    font-weight: bolder;
+}
+
 
 #hero-text-desc {
     font-size: 30px;
@@ -140,6 +145,11 @@ body {
 #services-section-text-heading {
     font-size: 92px;
     color: #ffffff;
+}
+
+#services-section-text-heading-blue-text {
+    color: #f637ec;
+    font-weight: bold;
 }
 
 #services-section-text-desc {
@@ -295,4 +305,70 @@ body {
     border-radius: 50%;
     padding: 10px;
     width: 10px;
+}
+
+/*  Getting Started Banner  */
+
+.getting-started-banner {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #151515;
+    background-image: url(./Assets/Photos/Rectangle\ 6774.png), url(./Assets/Photos/Rectangle\ 6773.png);
+}
+
+.getting-started-banner>p {
+    font-size: 92px;
+    color: #ffffff;
+}
+
+.getting-started-banner>p>span {
+    color: #151515;
+    font-weight: bold;
+}
+
+.getting-started-banner-button-section {
+    position: relative;
+    padding: 50px 0;
+}
+
+#getting-started-banner-button-section-btn-image {
+    position: absolute;
+    left: -30px;
+    top: 52px;
+}
+
+#getting-started-banner-button-section-text {
+    /* position: absolute; */
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#getting-started-banner-button-section-right-arrow {
+    position: absolute;
+    right: -70px;
+    top: 55px;
+}
+
+.page-footer {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #151515;
+}
+
+#page-footer-img {
+    margin-left: 100px;
+}
+
+.page-footer>ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    color: #ffffff;
+    margin-left: 550px;
 }
